@@ -77,7 +77,7 @@ const TeamMembers = () => {
                 swiper.navigation.update();
               }}
               modules={[Navigation]}
-              speed={300}
+              //   speed={300}
               slidesPerView="auto"
               onSwiper={(swiper) => handleSwiperInit(swiper)}
               wrapperClass="teammembers_collection-list w-dyn-items"
